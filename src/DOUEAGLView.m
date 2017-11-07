@@ -144,7 +144,7 @@
   [_displayLink setFrameInterval:1];
 
   [_displayLink addToRunLoop:[NSRunLoop mainRunLoop]
-                     forMode:NSDefaultRunLoopMode];
+                     forMode:NSRunLoopCommonModes];
 }
 
 - (void)_displayLinkCallback:(CADisplayLink *)displayLink
